@@ -1,1 +1,3 @@
 # GitBowser
+
+MERN Stack project
