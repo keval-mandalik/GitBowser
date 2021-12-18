@@ -1,0 +1,56 @@
+
+.header{
+    display: block;
+    width: 100vw;
+    background-color: black;
+    color: rgba(255,255,255,0.8);
+  }
+.mainRepo{
+    display: flex;
+}
+  .repoList{
+      margin-left: 20px;
+      width:28vw;
+      
+      border: 2px solid black;
+      margin: 10px;
+      border-radius: 10px;
+  }
+  .repoDetails{
+      width:68vw;
+      border: 2px solid black;
+      margin: 10px;
+      border-radius: 10px;
+  }
+  .repoItem{
+      margin-left: 30px;
+  }
+  .add-repo{
+      display: block;
+      position: fixed;
+      left: 2%;
+      bottom: 2%;
+      cursor: pointer;
+      z-index: 1;
+  }
+
+.add{
+    display: block;
+    width: 20%;
+    margin: 5px auto;
+    background-color: black;
+}
+
+.add:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.fa-trash-alt{
+    cursor: pointer;
+}
+h5{
+    margin: 10px ;
+    border: 2px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
